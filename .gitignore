@@ -1,0 +1,13 @@
+﻿node_modules/
+dist/
+.turbo/
+*.tsbuildinfo
+.env
+.env.local
+.DS_Store
+coverage/
+target/
+pkg/
+__pycache__/
+*.pyc
+.venv/
