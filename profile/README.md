@@ -31,8 +31,8 @@ JSON (325 tokens):                          Contex Compact (65 tokens):
 │     "role": "admin",                 │    │ 1   Alice    a     @0    120000 │
 │     "department": "Engineering",     │    │ 2   Bob      u     Mkt   85000  │
 │     "salary": 120000 },              │    │ 3   Charlie  a     @0    135000 │
-│   { "id": 2, ... },                 │    └─────────────────────────────────┘
-│   { "id": 3, ... }                  │
+│   { "id": 2, ... },                  │    └─────────────────────────────────┘
+│   { "id": 3, ... }                   │
 │ ]                                    │    → 80% fewer tokens
 └──────────────────────────────────────┘    → Identical LLM accuracy
 ```
